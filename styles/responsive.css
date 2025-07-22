@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+/* font styles */
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  /* font-weight: 100; */
+  font-style: normal;
+}
+
+
+
+/* commom-styles */
+.container {
+  margin: 0 auto;
+  max-width: 1240px;
+}
+.btn {
+  background-color: red;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 25px;
+}
+
+/* banner */
+.banner {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: black;
+  border-radius: 30px;
+  /* margin-top: 80px; */
+  margin: 50px auto;
+}
+.banner-left {
+  color: white;
+  text-align: left;
+  padding-left: 45px;
+  flex: 1;
+/* line-height: 70px; */
+}
+.banner-left h1 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 70px;
+}
+.banner-left p {
+  font-size: 16px;
+  font-weight: 400;
+  max-width: 65%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.banner-right img {
+  display: block;
+  margin-top: 30px;
+  flex: 1;
+}
+
+/* upcomin matches */
+.upcoming-matches {
+  display: flex;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.upcoming-matches-right {
+  background-color: black;
+  /* width: 312px; */
+  width: 25%;
+  height: fit-content;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  border-radius: 15px;
+  display: flex;
+}
+.upcoming-matches-right .btn:nth-child(1),
+.upcoming-matches-right .btn:nth-child(2) {
+  background-color: white;
+  color: black;
+}
+.upcoming-matches-left {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 17px;
+  flex: 1;
+}
+.card {
+  width: 312px;
+}
+.card img {
+  width: 312px;
+  height: 180px;
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+.upcoming-matches-left .card .btn {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  padding: 8px 17px;
+  margin-top: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 20px;
+}
+.upcoming-matches-left .card h2 {
+  margin: 15px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.comment {
+  gap: 40px;
+  display: flex;
+  color: rgba(22, 22, 22, 0.8);
+}
+*{
+        margin: 0;
+        padding: 0;
+    }
+footer{
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    margin-top: 130px;
+    
+}
+
+footer h1{
+    /* margin-top:130px;  */
+    padding-top: 130px;
+    padding-bottom: 100px;
+}
+
+footer ul{
+    display: flex;
+    list-style: none;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    height: 445px;
+}
